@@ -9,7 +9,7 @@ def send_page(path):
     return send_from_directory('static', path)
 @app.route('/')
 def root():
-    return app.send_static_file('index.html')
+    return 'Hello jakkrit'
 
 if __name__ == "__main__":
   app.run(host='0.0.0.0', port=80)
