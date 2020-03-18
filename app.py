@@ -9,7 +9,7 @@ def send_page(path):
     return send_from_directory('static', path)
 @app.route('/')
 def root():
-    return 'Hello jakkrit'
+    return 'Hello jakkrit2'
 
 if __name__ == "__main__":
   app.run(host='0.0.0.0', port=80)
